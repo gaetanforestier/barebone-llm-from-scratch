@@ -7,7 +7,7 @@ env/
 .jupyter/
 .ipynb_checkpoints/
 
-# Caches Python et builds (Générés automatiquement, ne jamais versionner)
+# Caches Python et builds 
 __pycache__/
 *.py[cod]
 *$py.class
@@ -24,3 +24,5 @@ dist/
 Thumbs.db
 
 *.log
+
+data/
