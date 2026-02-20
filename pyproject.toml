@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "barebone_llm"
+version = "0.1.0"
+description = "Construction d'un LLM from scratch"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "jupyterlab",
+    # "torch",  
+    # "tiktoken", 
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
